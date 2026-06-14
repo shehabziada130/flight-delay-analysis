@@ -1,0 +1,15 @@
+name: 'skywatch'
+version: '1.0.0'
+
+profile: 'skywatch'
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+test-paths: ["tests"]
+
+models:
+  skywatch:
+    staging:
+      +materialized: view
